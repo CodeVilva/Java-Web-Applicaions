@@ -1,0 +1,44 @@
+/* Neumorphic table styling for status / file listing pages */
+
+#naresh {
+  font-family: 'Roboto', Arial, sans-serif;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background: transparent;
+}
+
+#naresh caption {
+  text-align: left;
+  font-weight: 700;
+  color: #21324a;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+#naresh th, #naresh td {
+  border: none;
+  padding: 14px 16px;
+  text-align: left;
+  font-size: .92rem;
+}
+
+#naresh thead th,
+#naresh th {
+  background: #dfeaf6;
+  color: #1f5fb0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .78rem;
+  letter-spacing: .04em;
+}
+
+#naresh th:first-child { border-top-left-radius: 12px; }
+#naresh th:last-child { border-top-right-radius: 12px; }
+
+#naresh tr:nth-child(even) td { background-color: #eef5fc; }
+#naresh tr:nth-child(odd) td { background-color: #e7f0fa; }
+
+#naresh tr:hover td { background-color: #d7e7f7; }
+
+#naresh td { color: #21324a; }
